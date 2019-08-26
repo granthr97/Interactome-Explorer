@@ -1,0 +1,11 @@
+django
+gunicorn
+django-heroku
+djangorestframework
+requests
+django-cors-headers
+networkx
+whitenoise
+numpy
+gensim
+interruptingcow 

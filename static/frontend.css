@@ -1,0 +1,179 @@
+html {
+	overflow: hidden;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+	color: white;
+}
+
+#view {
+	padding: 0;
+	border: 0;
+	width: 100vw;
+	height: 94.9vh;
+}
+
+#cy {
+	padding: 0;
+	border: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	display: inline-block;
+}
+
+#sidebar {
+	position: relative;
+	background-color: gray;
+	color: white;
+	height: 100%;
+	width: 28%;
+	display: inline-block;
+	padding: 0;
+}
+
+#filebar {
+	width: 100vw;
+	position: fixed;
+	left: 0%;
+	bottom: 0%;
+	background-color: #0c0c0c;
+}
+
+#toggle_buttons, #back_info_button {
+	width: 100vw;
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	background-color: #0c0c0c;
+}
+
+#information_display {
+	display: none;
+	height: inherit;
+    width: inherit;
+}
+
+#information, #toggle_loops, #toggle_min_weight, #toggle_non_queried, #information_back, #toggle_deg_one {
+	color: white;
+}
+
+#information_and_tips {
+	overflow-y: scroll;
+}
+
+#nodeinfo {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#filebar button {
+	background-color: black;
+	color: white;
+}
+
+#statusdiv {
+	color: white;
+	display: inline-block;
+	text-align: right;
+}
+
+#status {
+	text-align: right;
+	color: white;
+	background-color: white;
+}
+
+#searchform {
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+}
+
+#info_sidebar {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#edge_sidebar {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#info_title {
+	padding-top: 10%;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: lightgrey;
+}
+
+#list_neighbors, #list_neighbors_edge_A, #list_neighbors_edge_B {
+	height: 5em;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#organisms, #experiments {
+	width: 100%;
+	height: 5em;
+	font-size: 1em;
+	color: #fff;
+}
+
+#popup_window {
+	display: none;
+	padding: 1.5em;
+	width: 100%;
+	height: 100%;
+	background-color: gray;
+	position: absolute;
+	z-index: 10em;
+}
+
+#container_sidebar {
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: overlay;
+	background-color: gray;
+}
+
+#node_links {
+	z-index: 10em;
+}
+
+#filter_sidebar {
+	width: 80%;
+	background-color: gray;
+}
+
+#exp_method_weight_sliders {
+	display: none;
+	padding-top: 1em;
+}
+
+#orgForm {
+	background-color: #000;
+	padding-top: 15px;
+	background-clip: content-box;
+}
+
+#methods_button {
+	background-color: #000000cf;
+}
+
+#search_continue {
+	background-color: #4ECB63;
+}
